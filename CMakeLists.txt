@@ -128,6 +128,7 @@ endif(roscpp_FOUND)
 
 #ROS2#
 find_package(rclcpp QUIET)
+include(cmake/yaml-cpp-extras.cmake)
 
 if(rclcpp_FOUND)
   message(=============================================================)
